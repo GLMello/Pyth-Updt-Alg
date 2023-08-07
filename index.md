@@ -88,10 +88,9 @@ def update_file(import_file, remove_file):
 
     ip_addresses = "\n".join(ip_addresses)
 
-# Rewrite the file, replacing its contents with `ip_addresses`
-
+# Rewrite the file, replacing its contents with the list's.
     with open(import_file, "w") as allow_file:
         allow_file.write(ip_addresses)
 
 ```
-</p>
+
