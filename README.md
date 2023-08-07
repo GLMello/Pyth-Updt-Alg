@@ -5,7 +5,7 @@
 <h2>Description</h2>
 Developing an algorithm responsible for updating a file containing IPs allowed to a network by checking their access and removing banned addresses from it.<br>  <br />
 
-**Note:**  In order to better visualize the code, fictional IPs and an examplary file were used. Later in development, the presented IPs are substituted for a file to allow scalability. Said file is also contained in this repository.<br>
+**Note:**  In order to better visualize the code, fictional IPs and an examplary file were used. Later in development, the presented IPs are substituted for a file to allow scalability.<br>
 <h2>Walk-through</h2>
 I began by developing a short code that opened the original file and displayed its contents, along with inserting a fictional banned ip list:
  <br/>
